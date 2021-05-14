@@ -9,6 +9,6 @@ This method was a three stage process:
 2. Extract the text Region of Interest (ROI) from the image using basic image cropping/NumPy array slicing.
 3. Take the text ROI, and then pass it into Tesseract to actually OCR the text.
 
-**This method worked quite well but was a bit complicated and less efficient due to the multistage process.**
+The benefit of using **Tesseract** to perform text detection and OCR is that we can do so in just a `single function call`, making it easier than the multistage OpenCV OCR process above.
 
 

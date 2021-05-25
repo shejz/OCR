@@ -13,6 +13,6 @@ Tesseract to detect text, localize it, and then OCR it.
 
 The benefit of using Tesseract to perform text detection and OCR is that we can do so in just a single function call, making it easier than the multistage OpenCV OCR process.
 
-[OpenCV Text Detection using EAST text detector]()
+[OpenCV Text Detection using EAST text detector](https://github.com/shejz/OCR/tree/main/OpenCV%20Text%20Detection%20(EAST%20text%20detector))
 
 Detect text in natural scene images using the EAST text detector.

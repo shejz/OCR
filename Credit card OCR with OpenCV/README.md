@@ -1,4 +1,5 @@
 ## **OCR via template matching using OpenCV**
+- Template matching algorithm with OpenCV to automatically recognize credit card digits.
 
 ### **The OCR-A font**
 The OCR-A font, a font created specifically to aid Optical Character Recognition algorithms. Commonly found on the front of credit/debit cards.

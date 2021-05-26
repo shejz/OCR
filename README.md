@@ -16,3 +16,7 @@ The benefit of using Tesseract to perform text detection and OCR is that we can 
 [OpenCV Text Detection using EAST text detector](https://github.com/shejz/OCR/tree/main/OpenCV%20Text%20Detection%20(EAST%20text%20detector))
 
 Detect text in natural scene images using the EAST text detector.
+
+[Credit card OCR with OpenCV](https://github.com/shejz/OCR/tree/main/Credit%20card%20OCR%20with%20OpenCV)
+
+Perform Optical Character Recognition (OCR) using template matching via OpenCV. Specifically, we applied our template matching OCR approach to recognize the type of a credit card along with the 16 credit card digits.

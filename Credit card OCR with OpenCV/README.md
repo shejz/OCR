@@ -10,6 +10,10 @@ We’ll then devise a computer vision and image processing algorithm that can:
 2. Extract each of these four groupings followed by segmenting each of the sixteen numbers individually.
 3. Recognize each of the sixteen credit card digits by using template matching and the OCR-A font.
 
+The OCR-A font for the digits 0-9. We will be using this font along with template matching to OCR credit card digits in images.
+
+![](https://github.com/shejz/OCR/blob/main/Credit%20card%20OCR%20with%20OpenCV/OCR-A%20image/OCR-A%20image.jpg)
+
 ### **Template matching**
 As a form of OCR to create a solution to automatically recognize credit cards and extract the associated credit card digits from images.
 
@@ -24,6 +28,8 @@ As a form of OCR to create a solution to automatically recognize credit cards an
 ![](https://github.com/shejz/OCR/blob/main/Credit%20card%20OCR%20with%20OpenCV/output/output.jpg)
 
 
-After evaluating our credit card OCR system, we found it to be 100% accurate provided that the issuing credit card company used the OCR-A font for the digits.
+After evaluating our credit card OCR system, we found it to be correctly identified each of the 16 digits 100% accurate provided that the issuing credit card company used the OCR-A font for the digits.
+
+Furthermore, template matching is also a very fast method when comparing digits.
 
 To extend this application, you would want to gather real images of credit cards in the wild and potentially train a machine learning model (either via standard feature extraction or training or Convolutional Neural Network) to further improve the accuracy of this system.

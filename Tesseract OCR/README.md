@@ -1,7 +1,7 @@
 ## [Tesseract OCR]()
 
 **Limitations of Tesseract for OCR**
-- Tesseract is best suited for situations with high resolution inputs where the foreground text is cleanly segmented from the background.
+- Tesseract is best suited for situations with high-resolution inputs where the foreground text is cleanly segmented from the background.
 
 > Furthermore these segmentations need to be as high resolution (DPI) as possible and the characters in the input image cannot appear “pixelated” after segmentation. If characters do appear pixelated then Tesseract will struggle to correctly recognize the text found this out even when applying images captured under ideal conditions (a PDF screenshot).
 

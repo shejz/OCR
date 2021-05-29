@@ -7,6 +7,10 @@ The biggest downside is with the limitations of Tesseract itself. Tesseract work
 
 Furthermore these segmentations need to be as high resolution (DPI) as possible and the characters in the input image cannot appear “pixelated” after segmentation. If characters do appear pixelated then Tesseract will struggle to correctly recognize the text — we found this out even when applying images captured under ideal conditions (a PDF screenshot).
 
+[Tesseract OCR for Non-English Languages]()
+
+ OCR non-English languages using the Tesseract OCR engine.
+
 [Text localization and detection](https://github.com/shejz/OCR/tree/main/Text%20localization%20and%20detection)
 
 Tesseract to detect text, localize it, and then OCR it.

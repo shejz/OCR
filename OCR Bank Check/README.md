@@ -1,5 +1,5 @@
 
-## Bank check OCR I
+## Bank Check OCR I
 
 OCR'ing a bank check is more difficult than OCR’ing a credit card — this is mainly due to the fact that bank check symbols consist of multiple parts.
 
@@ -24,9 +24,16 @@ The MICR E-13B font, commonly used for bank check recognition. We’ll be OCR’
 
 The E-13B variant of MICR contains 14 characters:
 
-numerals: digits 0-9
-- ⑆ transit: bank branch delimiter
-- ⑇ amount: transaction amount delimiter
-- ⑈ on-us: customer account number delimiter
-- ⑉ dash: number delimiter (between routing and account number, for example)
+- **numerals**: digits 0-9
+- ⑆ **transit**: bank branch delimiter
+- ⑇ **amount**: transaction amount delimiter
+- ⑈ **on-us**: customer account number delimiter
+- ⑉ **dash**: number delimiter (between routing and account number, for example)
 
+## Bank Check OCR II
+
+In part I we apply back check OCR to images using OpenCV and template matching. In fact, this is the same method that we used for credit card OCR — the primary difference is that we had to take special care to extract each **MICR E-13B** symbol, especially when these symbols contain multiple contours. 
+
+However, while our template matching method worked correctly on this particular example image, real-world inputs are likely to be much more noisy, making it harder for us to extract the digits and symbols using simple contour techniques. In these situations, it would be best to localize each of the digits and characters followed by applying machine learning to obtain higher digit classification accuracy. Methods such as Histogram of Oriented Gradients + Linear SVM and deep learning will obtain better digit and symbol recognition accuracy on real-world images that contain more noise.
+
+![](https://github.com/shejz/OCR/blob/main/OCR%20Bank%20Check/Bank%20Check%20OCR%20Part%20II/check_ocr.png)

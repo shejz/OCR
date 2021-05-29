@@ -1,5 +1,5 @@
 
-Bank check OCR I
+## Bank check OCR I
 
 OCR'ing a bank check is more difficult than OCR’ing a credit card — this is mainly due to the fact that bank check symbols consist of multiple parts.
 
@@ -19,4 +19,14 @@ Since OCR'ing a bank check with OpenCV and Python is much more complicated than 
 
 The MICR E-13B font, commonly used for bank check recognition. We’ll be OCR’ing this bank check font using OpenCV
 ![](https://github.com/shejz/OCR/blob/main/OCR%20Bank%20Check/Bank%20Check%20OCR%20Part%20I/MICR%20E-13B%20font.jpg)
+
+**MICR (Magnetic Ink Character Recognition)** is a financial industry technology for processing documents. You will often find this magnetic ink in the E-13B format on the bottom of account statements and checks.
+
+The E-13B variant of MICR contains 14 characters:
+
+numerals: digits 0-9
+- ⑆ transit: bank branch delimiter
+- ⑇ amount: transaction amount delimiter
+- ⑈ on-us: customer account number delimiter
+- ⑉ dash: number delimiter (between routing and account number, for example)
 

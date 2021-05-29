@@ -1,6 +1,8 @@
 
 ## Bank Check OCR I
 
+DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/OCR%20Bank%20Check/Bank%20Check%20OCR%20Part%20I/bank_check_ocr.ipynb)
+
 OCR'ing a bank check is more difficult than OCR’ing a credit card — this is mainly due to the fact that bank check symbols consist of multiple parts.
 
 We cannot assume that each contour in our reference font image maps to an individual character.
@@ -31,6 +33,8 @@ The E-13B variant of MICR contains 14 characters:
 - ⑉ **dash**: number delimiter (between routing and account number, for example)
 
 ## Bank Check OCR II
+
+DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/OCR%20Bank%20Check/Bank%20Check%20OCR%20Part%20II/bank_check_ocr_part_ii.ipynb)
 
 In part I we apply back check OCR to images using OpenCV and template matching. In fact, this is the same method that we used for credit card OCR — the primary difference is that we had to take special care to extract each **MICR E-13B** symbol, especially when these symbols contain multiple contours. 
 

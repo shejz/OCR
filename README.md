@@ -35,5 +35,9 @@ OCR'ing a bank check is more difficult than OCR’ing a credit card — this is 
 
 Recognize the digits on the thermostat using OpenCV
 
+[Handwriting Recognition]()
+
+Perform OCR handwriting recognition using OpenCV, Keras, and TensorFlow. This handwriting recognition system utilized basic computer vision and image processing algorithms (edge detection, contours, and contour filtering) to segment characters from an input image. From there, we passed each individual character through our trained handwriting recognition model to recognize each character.
+
 
 

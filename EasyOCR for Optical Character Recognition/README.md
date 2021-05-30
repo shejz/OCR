@@ -2,7 +2,7 @@
 
 DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/EasyOCR%20for%20Optical%20Character%20Recognition/easy_ocr.ipynb)
 
-**Optical Character Recognition (OCR) is made easy with the EasyOCR Python package.
+**Optical Character Recognition (OCR) is made easy with the EasyOCR Python package**.
 
 - The EasyOCR package can be installed with a single pip command.
 - The dependencies on the EasyOCR package are minimal, making it easy to configure your OCR development environment.

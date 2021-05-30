@@ -2,7 +2,7 @@
 
 NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/recognize_digits.ipynb)
 
-### The seven-segment display**
+### The seven-segment display
 You’re likely already familiar with a seven-segment display, even if you don’t recognize the particular term. A great example of such a display is your classic digital alarm clock
 
 **Each digit on the alarm clock is represented by a seven-segment component just like the one below**:
@@ -30,4 +30,15 @@ We’ll be using the **thermostat** image as input:
 After applying these pre-processing steps our edge map looks like this:
 
 ![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/gray-scale.jpg)
+
+Notice how the outlines of the LCD are clearly visible — this accomplishes Step #1.
+
+In order to find the LCD regions, we need to extract the contours (i.e., outlines) of the regions in the edge map. 
+
+Applying the perspective transform gives us a top-down, birds-eye-view of the LCD:
+
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/transformed.jpg)
+
+Obtaining this view of the LCD satisfies Step #2 — we are now ready to extract the digits from the LCD.
+
 

@@ -30,3 +30,10 @@ Perform Optical Character Recognition (OCR) using template matching via OpenCV. 
 [OCR Bank Check](https://github.com/shejz/OCR/tree/main/OCR%20Bank%20Check)
 
 OCR'ing a bank check is more difficult than OCR’ing a credit card — this is mainly due to the fact that bank check symbols consist of multiple parts. Back check OCR to images using OpenCV and Template Matching. In fact, this is the same method that we used for credit card OCR the primary difference is that we had to take special care to extract each **MICR E-13B** symbol, especially when these symbols contain multiple contours.
+
+[Recognizing Digits in Images](https://github.com/shejz/OCR/tree/main/Recognizing%20digits%20with%20OpenCV)
+
+Recognize the digits on the thermostat using OpenCV
+
+
+

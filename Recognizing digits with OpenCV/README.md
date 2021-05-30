@@ -41,4 +41,13 @@ Applying the perspective transform gives us a top-down, birds-eye-view of the LC
 
 Obtaining this view of the LCD satisfies Step #2 — we are now ready to extract the digits from the LCD.
 
+To obtain the digits themselves we need to threshold the warped image to reveal the dark regions (i.e., digits) against the lighter background (i.e., the background of the LCD display)
+
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/thresh.jpg)
+
+Then apply a series of morphological operations to clean up the thresholded image
+
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/morphological.jpg)
+
+
 

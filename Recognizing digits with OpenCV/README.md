@@ -3,7 +3,7 @@
 NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/recognize_digits.ipynb)
 
 ### The seven-segment display
-You’re likely already familiar with a seven-segment display, even if you don’t recognize the particular term. A great example of such a display is your classic digital alarm clock
+This approach is specifically intended for seven-segment displays (i.e., the digit displays you would typically see on a digital alarm clock).
 
 **Each digit on the alarm clock is represented by a seven-segment component just like the one below**:
 
@@ -41,11 +41,13 @@ Applying the perspective transform gives us a top-down, birds-eye-view of the LC
 
 Obtaining this view of the LCD satisfies Step #2 — we are now ready to extract the digits from the LCD.
 
+By extracting each of the seven segments and applying basic thresholding and morphological operations we can determine which segments are “on” and which are “off”. From there, we can look up the on/off segments in a Python dictionary data structure to quickly determine the actual digit.
+
 To obtain the digits themselves we need to threshold the warped image to reveal the dark regions (i.e., digits) against the lighter background (i.e., the background of the LCD display)
 
 ![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/thresh.jpg)
 
-Then apply a series of morphological operations to clean up the thresholded image
+Then apply a series of morphological operations to clean up the thresholded image. 
 
 ![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/morphological.jpg)
 
@@ -63,11 +65,11 @@ Given the digit ROI we now need to localize and extract the seven segments of th
 ![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/digit_reco_rois.gif)
 
 
-
-
 An example of drawing the segment ROI for each of the seven segments of the digit.
 
 ![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/digit_reco_segments.gif)
+
+
 
 
 

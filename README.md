@@ -1,5 +1,7 @@
 
+[EasyOCR for Optical Character Recognition](https://github.com/shejz/OCR/tree/main/EasyOCR%20for%20Optical%20Character%20Recognition)
 
+Optical Character Recognition using the EasyOCR Python package that allows computer vision developers to effortlessly perform Optical Character Recognition.
 
 [Tesseract OCR](https://github.com/shejz/OCR/tree/main/Tesseract%20OCR)
 

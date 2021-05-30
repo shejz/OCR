@@ -29,5 +29,5 @@ We’ll be using the **thermostat** image as input:
 
 After applying these pre-processing steps our edge map looks like this:
 
-![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/grayscale.jpg)
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/gray-scale.jpg)
 

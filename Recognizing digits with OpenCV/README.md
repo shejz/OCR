@@ -49,5 +49,25 @@ Then apply a series of morphological operations to clean up the thresholded imag
 
 ![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/morphological.jpg)
 
+Now that we have a nice segmented image we once again need to apply contour filtering, only this time we are looking for the actual digits. To accomplish this we find contours in our thresholded image.
+
+**If we were to loop over the contours and draw the bounding box on our image, the result would look like this**:
+
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/bounding_box.jpg)
+
+**The final step is to actually identify each of the digits**:
+
+We start looping over each of the digit contours. For each of these regions, Extracting each individual digit ROI by computing the bounding box and applying NumPy array slicing.
+Given the digit ROI we now need to localize and extract the seven segments of the digit display.
+
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/digit_reco_rois.gif)
+
+
+
+
+An example of drawing the segment ROI for each of the seven segments of the digit.
+
+![](https://github.com/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/digit_reco_segments.gif)
+
 
 

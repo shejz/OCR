@@ -36,9 +36,7 @@ OCR'ing a bank check is more difficult than OCR’ing a credit card — this is 
 Recognize the digits on the thermostat using OpenCV
 
 
-[OCR with Keras, TensorFlow, and Deep Learning]()
-
-Optical Character Recognition with Keras and TensorFlow:
+[Optical Character Recognition with Keras and TensorFlow]()
 1. [Training an OCR model with Keras and TensorFlow]() 
 2. [Handwriting recognition with Keras and TensorFlow](https://github.com/shejz/OCR/tree/main/Handwriting%20Recognition) 
 

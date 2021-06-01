@@ -7,6 +7,14 @@ NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos
 
 ![](https://github.com/shejz/OCR/blob/main/Sudoku%20Puzzle%20Solver/soduko_pipeline.jpg)
 
+**Sudoku puzzle solver 6-step process**:
+1. Provide input image containing Sudoku puzzle to our system.
+2. Locate where in the input image the puzzle is and extract the board.
+3. Given the board, locate each of the individual cells of the Sudoku board (most standard Sudoku puzzles are a 9×9 grid, so we’ll need to localize each of these cells).
+4. Determine if a digit exists in the cell, and if so, OCR it.
+5. Apply a Sudoku puzzle solver/checker algorithm to validate the puzzle.
+6. Display the output result to the user.
+
 In order to find and locate the Sudoku puzzle board in the image, we utilized OpenCV and basic image processing techniques, including blurring, thresholding, and contour processing, just to name a few.
 
 To actually OCR the digits on the Sudoku board, we trained a custom digit recognition model using Keras and TensorFlow. Combining the Sudoku board locator with our digit OCR model allowed us to make quick work of solving the actual Sudoku puzzle.

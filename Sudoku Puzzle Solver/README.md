@@ -3,6 +3,11 @@
 
 NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Sudoku%20Puzzle%20Solver/opencv_sudoku_solver.ipynb)
 
+
+### A digit OCR model implemented in Keras and TensorFlow
+
+Every Sudoku puzzle starts with an NxN grid (typically 9×9) where some cells are blank and other cells already contain a digit. But before we can solve Sudoku puzzles with OpenCV, we first need to implement a neural network architecture that will handle OCR’ing the digits on the Sudoku puzzle board. Perhaps unsurprisingly, we’ll be using the **MNIST** dataset to train our digit recognizer.
+
 ### Steps for building an OpenCV-based Sudoku puzzle solver that uses Optical Character Recognition (OCR) to recognize digits.
 
 ![](https://github.com/shejz/OCR/blob/main/Sudoku%20Puzzle%20Solver/soduko_pipeline.jpg)

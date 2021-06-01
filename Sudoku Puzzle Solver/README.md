@@ -21,4 +21,11 @@ To actually OCR the digits on the Sudoku board, we trained a custom digit recogn
 
 ### Model Architecture
 
+The body of our network is composed of:
+
+CONV => RELU => POOL: Layer set 1
+CONV => RELU => POOL: Layer set 2
+FC => RELU: Fully-connected layer set with 50% dropout
+The head of the network consists of a softmax classifier with the number of outputs being equal to the number of our classes (in our case: 10 digits).
+
 ![](https://github.com/shejz/OCR/blob/main/Sudoku%20Puzzle%20Solver/output/digit_classifier.h5.png)

@@ -1,5 +1,7 @@
 
-## OCR a document, form, or invoice
+## OCR a Document, Form, or Invoice
+
+NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/OCR%20a%20document%2C%20form%2C%20or%20invoice%20with%20Tesseract%20and%20OpenCV/ocr_document.ipynb)
 
 Despite living in the digital age, we still have a strong reliance on physical paper trails, especially in large organizations such as government, enterprise companies, and universities/colleges.
 

@@ -7,6 +7,10 @@ The need for physical paper trails combined with the fact that nearly every docu
 
 Optical Character Recognition algorithms can automatically digitize these documents, extract the information, and pipe them into a database for storage, alleviating the need for large, expensive, and even error-prone manual entry teams.
 
+**Here's the highlighted eight fields for which we’ll be performing OCR with Tesseract and OpenCV. The coordinates of each of these fields were obtained using a photo editing application.
+
+![](https://github.com/shejz/OCR/blob/main/OCR%20a%20document%2C%20form%2C%20or%20invoice%20with%20Tesseract%20and%20OpenCV/Steps/templates.jpg)
+
 ### Steps to implementing a document OCR pipeline
 1.  Involves defining the locations of fields in the input image document. Determine the bounding box (x, y)-coordinates of each field we want to OCR as shown below
 

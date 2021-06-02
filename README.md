@@ -47,4 +47,8 @@ Recognize the digits on the thermostat using OpenCV
 
 Sudoku puzzle solver using OpenCV, Deep Learning, and Optical Character Recognition (OCR).
 
+[OCR a document, form, or invoice](https://github.com/shejz/OCR/tree/main/OCR%20a%20document%2C%20form%2C%20or%20invoice%20with%20Tesseract%20and%20OpenCV)
+
+Optical Character Recognition algorithms can automatically digitize these documents, extract the information, and pipe them into a database for storage, alleviating the need for large, expensive, and even error-prone manual entry teams.
+
 

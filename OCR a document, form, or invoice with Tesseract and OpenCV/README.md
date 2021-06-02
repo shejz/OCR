@@ -9,6 +9,7 @@ Optical Character Recognition algorithms can automatically digitize these docume
 
 ### Steps to implementing a document OCR pipeline
 1.  Involves defining the locations of fields in the input image document. Determine the bounding box (x, y)-coordinates of each field we want to OCR as shown below
+
 ![](https://github.com/shejz/OCR/blob/main/OCR%20a%20document%2C%20form%2C%20or%20invoice%20with%20Tesseract%20and%20OpenCV/Steps/Step1.%20Specifying%20Locations.jpg)
 2. Then we accept an input image containing the document we want to OCR and present it to our OCR pipeline.![](https://github.com/shejz/OCR/blob/main/OCR%20a%20document%2C%20form%2C%20or%20invoice%20with%20Tesseract%20and%20OpenCV/Steps/Step2.%20Input%20image%20containing%20the%20document.jpg)
 3. Apply automatic image alignment/registration to align the input image with the template form. Aligning a scanned document with its template using OpenCV.

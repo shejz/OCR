@@ -1,6 +1,6 @@
 ## Tesseract Optical Character Recognition (OCR) for Non-English Languages
 
-DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Tesseract%20OCR%20for%20Non-English%20Languages/tesseract_non_english.ipynb)
+DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Tesseract%20OCR%20for%20Non-English%20Languages/tesseract_non_english.ipynb)
 
 **Setup**:
 - Configure the Tesseract OCR engine for multiple languages, including non-English languages.

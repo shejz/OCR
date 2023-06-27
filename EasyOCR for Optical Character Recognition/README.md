@@ -1,6 +1,6 @@
 ## EasyOCR for Optical Character Recognition
 
-DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/EasyOCR%20for%20Optical%20Character%20Recognition/easy_ocr.ipynb)
+DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/EasyOCR%20for%20Optical%20Character%20Recognition/easy_ocr.ipynb)
 
 **Optical Character Recognition (OCR) is made easy with the EasyOCR Python package**.
 

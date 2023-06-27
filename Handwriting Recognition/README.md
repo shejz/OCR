@@ -1,7 +1,7 @@
 
 ## OCR: Handwriting recognition with OpenCV, Keras, and TensorFlow
 
-NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Handwriting%20Recognition/ocr_handwriting_recognition.ipynb)
+NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Handwriting%20Recognition/ocr_handwriting_recognition.ipynb)
 
  Handwriting recognition tends to be significantly harder than traditional OCR that uses specific fonts/characters. The reason this concept is so challenging is that unlike computer fonts, there are nearly infinite variations of handwriting styles. Every one of us has a personal style that is specific and unique.
 

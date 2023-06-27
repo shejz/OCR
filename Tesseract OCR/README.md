@@ -1,6 +1,6 @@
 ## [Tesseract OCR]()
 
-DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Tesseract%20OCR/tesseract_ocr.ipynb)
+DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Tesseract%20OCR/tesseract_ocr.ipynb)
 
 **Limitations of Tesseract for OCR**
 - Tesseract is best suited for situations with high-resolution inputs where the foreground text is cleanly segmented from the background.

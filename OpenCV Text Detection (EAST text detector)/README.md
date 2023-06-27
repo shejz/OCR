@@ -1,6 +1,6 @@
  ## OpenCV’s new EAST text detector to automatically detect the presence of text in natural scene images.
  
- DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/OpenCV%20Text%20Detection%20%28EAST%20text%20detector%29/opencv_EAST_text_detection.ipynb)
+ DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/OpenCV%20Text%20Detection%20%28EAST%20text%20detector%29/opencv_EAST_text_detection.ipynb)
  
  ### The algorithm “EAST”: Efficient and Accurate Scene Text Detection. 
  The EAST pipeline is capable of predicting words and lines of text at arbitrary orientations on 720p images, and furthermore, can run at 13 FPS.

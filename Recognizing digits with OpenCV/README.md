@@ -1,6 +1,6 @@
 ## Recognizing Digits 
 
-NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/recognize_digits.ipynb)
+NOTEBOOK DEMO:  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/OCR/blob/main/Recognizing%20digits%20with%20OpenCV/recognize_digits.ipynb)
 
 ### The seven-segment display
 This approach is specifically intended for seven-segment displays (i.e., the digit displays you would typically see on a digital alarm clock).
